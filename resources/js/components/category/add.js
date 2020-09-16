@@ -10,7 +10,33 @@ render() {
 
     return (   
 
-           <div>  This is  a Add category </div>
+           <div>  
+               <form>
+                 <div class = "form-group">
+                  <label for = "category_name" > Category Name </label>
+                 <input type = "text" class = "form-control" id = "category_name" />
+
+                 </div>
+
+                 <button type = "submit" class = "btn btn-primary"> Save</button>
+
+               </form>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+                </div>
           
        
     );

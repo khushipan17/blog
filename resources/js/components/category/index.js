@@ -16,12 +16,19 @@ render() {
                
                <Router>
 
+                  <div>
 
-                <Link to = "/category"> Listing </Link>
-                <Link to = " /category/add"> Add</Link>
+                      <hr />
+
+                <Link to = "/category" className = "btn btn-warning"> Listing </Link> &nbsp;
+                <Link to = "/category/add"  className = "btn btn-primary"> Add</Link>
                  <Route exact path = "/category" component = {Listing} />
                  <Route exact path = "/category/add" component = {Add} />
+              
+
              
+                  </div>
+               
 
 
 
